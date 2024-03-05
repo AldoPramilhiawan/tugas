@@ -8,60 +8,46 @@ import "../App.css";
 function Perawat() {
   return (
     <>
-      <h1>Perawat</h1>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={satu} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Kepala Ruangan</h5>
-              <p>EDI RIYANTO, S.KEP., NS.</p>
+      <div className="container-py-5">
+        <div className="text-center">Perawat</div>
+        <div className="row row-cols-1 row-cols-md-2 g-4 py-5">
+          <div className="col">
+            <div class="card">
+              <img src={satu} class="card-img-top"  alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Kepala Ruangan</h4>
+                <h5 className="card-text">Edi Riyanto, S.Kep., Ns.</h5>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={dua} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Perawat Penanggung Jawab</h5>
-              <p>HARNI WAHYUNI, S.KEP., NS.</p>
+          <div className="col">
+            <div class="card">
+              <img src={dua} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Perawat Penanggung Jawab</h4>
+                <h5 className="card-text">Harni Wahyuni, S.Kep., Ns.</h5>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={tiga} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Perawat Penanggung Jawab</h5>
-              <p>DIMAS ANGGARA NDARU N., S.KEP., NS.</p>
+          <div className="col">
+            <div class="card">
+              <img src={tiga} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Perawat Penanggung Jawab</h4>
+                <h5 className="card-text">Dimas Anggara Ndaru N., S.Kep., Ns.</h5>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={empat} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Perawat Penanggung Jawab</h5>
-              <p>ERVITA DWI M., S.KEP., NS.</p>
+          <div className="col">
+            <div class="card">
+              <img src={empat} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Perawat Penanggung Jawab</h4>
+                <h5 className="card-text">Ervita Dwi M., S.Kep., Ns.</h5>
+              </div>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </>
   );

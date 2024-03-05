@@ -1,9 +1,10 @@
 import React from "react";
+import "../App.css"
 
 function Headers() {
   return (
     <>
-      <nav class="navbar navbar-light bg-light sticky-top">
+      <nav class="navbar navbar-light  sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">
           Orientasi Pasien Asoka
@@ -39,6 +40,31 @@ function Headers() {
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="/perawat">
                     Perawat
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/dokter">
+                    Dokter
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/tata-tertib">
+                    Tata Tertib
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/sarana-prasarana">
+                    Saran Prasarana
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/administrasi-ruangan">
+                    Administrasi Ruangan
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/edukasi">
+                    Edukasi
                   </a>
                 </li>
               </ul>
